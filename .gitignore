@@ -1,0 +1,12 @@
+node_modules
+.DS_Store
+*.swp
+*.swo
+.idea/
+*.iml
+logs
+local/
+coverage/
+.nyc_output
+.vscode
+benchmarks/test.js

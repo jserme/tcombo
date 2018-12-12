@@ -1,0 +1,23 @@
+{
+  "name": "tcombo",
+  "version": "1.0.0",
+  "description": "tengine combo url parser and generator",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jserme/tcombo.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require intelli-espower-loader",
+    "cover": "nyc --reporter=text --reporter=html mocha"
+  },
+  "author": "jserme <dev.hubo@gmail.com> (http://jser.me/)",
+  "license": "MIT",
+  "devDependencies": {
+    "intelli-espower-loader": "^1.0.1",
+    "mocha": "^5.2.0",
+    "nyc": "^13.1.0",
+    "power-assert": "^1.4.2",
+    "standard": "^12.0.1"
+  }
+}
